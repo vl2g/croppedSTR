@@ -1,2 +1,1 @@
-# croppedSTR
-Cropped Scene Text Recognizer for Indic Languages 
+# Cropped Scene Text Recognizer for Indic Languages using ParSeq 
