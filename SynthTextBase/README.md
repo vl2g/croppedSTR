@@ -90,6 +90,11 @@ The 8,000 background images used in the paper(["Synthetic Data for Text Localisa
 - `strdata/images`: This folder will contain all cropped word images.
 
 
+### Add a new language
+- Run `SynthTextBase/prep_scripts/update_freq.py` by providing vocab file path for the new language in the file.
+- Add fonts in `SynthTextBase/data/font` folder then
+- Run `SynthTextBase/invert_font_size.py`
+
 ### Generate LMDB files
 Run below command to after setting appropriate paths of word images files to generate lmdb file for training the recognition mode:
 ```

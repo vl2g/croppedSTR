@@ -2,7 +2,7 @@ from collections import Counter
 import pickle
 
 cnt = 0
-filename = '/DATA/ocr_team_2/rajeev/experiments/SynthTextHindi/indic_languages_texts/clean_text_files/mr.txt'
+filename = '<vocab_file.txt>'
 with open(filename, 'r') as f:
     c = Counter()
     for line in f.readlines():
