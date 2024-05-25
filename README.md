@@ -7,3 +7,7 @@ Download Vocab Files from the URL:
 ```commandline
 https://drive.google.com/file/d/11wsO-itc4nBb3d85Qke6F-iFm7ZgHSX1/view?usp=sharing
 ```
+### Vocab Source
+```commandline
+Vacabulary is generated from AI4Bharat NLP corpora: https://indicnlp.ai4bharat.org/pages/indicnlp-corpus/
+```
