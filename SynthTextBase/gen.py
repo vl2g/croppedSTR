@@ -138,7 +138,7 @@ def main(viz=False):
     global NUM_IMG
     if NUM_IMG < 0:
         NUM_IMG = N
-    start_idx, end_idx = 5125, min(NUM_IMG, N)
+    start_idx, end_idx = 0, min(NUM_IMG, N)
 
     RV3 = RendererV3(DATA_PATH, max_time=SECS_PER_IMG)
     for i in range(start_idx, end_idx):
