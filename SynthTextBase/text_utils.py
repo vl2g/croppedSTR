@@ -396,7 +396,7 @@ class RenderFont(object):
 
         # text-source : gets english text:
         self.text_source = TextSource(min_nchar=self.min_nchar,
-                                      fn=osp.join(data_dir,'../../../SynthTextHindi/indic_languages_texts/clean_text_files/or.txt'))
+                                      fn='<vocab_file.txt>')
 
         # get font-state object:
         self.font_state = FontState(data_dir)
