@@ -37,7 +37,7 @@ DB_FNAME = "data/dset.h5"
 DATA_URL = 'http://www.robots.ox.ac.uk/~ankush/data.tar.gz'
 RENDER_PERCENTAGE=0.09375
 
-os.makedirs("results", exist_ok=True)
+os.makedirs("results/pickles", exist_ok=True)
 os.makedirs("strdata/images", exist_ok=True)
 os.makedirs("generated_data",exist_ok=True)
 
