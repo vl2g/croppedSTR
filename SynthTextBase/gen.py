@@ -39,7 +39,7 @@ RENDER_PERCENTAGE=0.09375
 
 os.makedirs("results", exist_ok=True)
 os.makedirs("strdata/images", exist_ok=True)
-os.makedirs("generated_data/pickles",exist_ok=True)
+os.makedirs("generated_data",exist_ok=True)
 
 
 count = 0
